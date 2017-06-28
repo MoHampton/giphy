@@ -1,7 +1,7 @@
 $(document).ready(function() {
     //Variables
    
-    var topics = ['Dubai', 'Paris', 'London', 'Cairo'];
+    var topics = ['Dubai', 'Paris', 'London', 'Rome'];
     var stillImgUrl = '';
     var animateImgUrl = '';
     var gifCondition = '';
