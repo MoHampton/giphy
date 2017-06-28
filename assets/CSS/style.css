@@ -1,0 +1,114 @@
+.wrapper {
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.jumbotron {
+	text-align: center;
+	width: 80%;
+}
+
+
+body {
+	margin: 15px;
+	background-image: url('../images/travel-logo.jpg');
+	background-image: fixed;
+	background-size: cover;
+	background-position: center;
+ 	background-position-y: 60px;
+	background-repeat: no-repeat;
+	font-family: 'Cinzel', serif;
+	
+}
+
+p {
+	text-align: center;
+	font-style: bold;
+	font-size: 28px;
+}
+
+
+header  {
+	background: gunmetalgrey;
+	border-radius: 10px;
+
+}
+
+header {
+	text-align: center;
+}
+
+main {
+	min-height: 200px;
+}
+
+h1 {
+	font-size: 50px;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+img {
+	max-width: 100%;
+}
+img {
+    padding: 25px;
+}
+
+.gifSection div {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*Input*/
+
+input.form-control.search {
+    width: 50em;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+
+.searchBtn {
+    background-color: #eeeeee;
+}
+
+#btn-section {
+    width: 15%;
+    height: 100%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    font-size: 2vw;
+}
+
+.input-group {
+    margin: 10px 0 0 50px;
+}
+
+
+/*Gif Buttons */
+
+.gif {
+    margin: 20px auto;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gifStart {
+    margin-top: 100px;
+    text-align: center;
+}
+
