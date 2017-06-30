@@ -1,6 +1,5 @@
 $(document).ready(function() {
     //Variables
-   
     var topics = ['Dubai', 'Paris', 'London', 'Rome'];
     var stillImgUrl = '';
     var animateImgUrl = '';
@@ -32,6 +31,8 @@ $('#submit-btn').on('click', function(event) {
     submit();
 });
 
+
+//Will try to build a progress bar if time permits...
 //When Enter is pressed
 $(".search").keydown(function(event){
     if(event.keyCode == 13){
@@ -47,7 +48,7 @@ $(".search").keydown(function(event){
             event.preventDefault();
             //Get input text value
             var inputVal = $('#userInput').val();
-            //push user input to array
+            //Push user input to array
             topics.push(inputVal);
             //Create new buttons
             createBtn();
@@ -56,7 +57,7 @@ $(".search").keydown(function(event){
             console.log(topics);
     }
     var displayGif = function() {
-        //Gets the value of the button that is clicked
+        //Retrieves value of the button that is clicked
         var btnVal = $(this).data('name');
         //Api URL and key 
         var apiKey = '5f030fe651564dc0bd58fff93a04a6f4';
@@ -65,7 +66,7 @@ $(".search").keydown(function(event){
             url: apiUrl,
             method: 'GET'
         }).done(function(response) {
-            //removes images when new btn is clicked
+            //Removes images when new btn is clicked
             $('.gifSection').empty();
             let newH1 = $('<h1>');
                 newH1.html(btnVal);
@@ -89,7 +90,7 @@ $(".search").keydown(function(event){
                 newImg.attr('data-type', 'still');
                 newImg.addClass('gifImage');
                 //Give p element the rating texts
-                newP.html('Giphy Rating: ' + rating);
+                newP.html('Rating: ' + rating);
                 $(newP).appendTo(newDiv)
                 $(newImg).appendTo(newDiv);
                 $('.gifSection').append(newDiv); //**********
@@ -118,8 +119,7 @@ $(".search").keydown(function(event){
         }
     }
 
-    /*Main
-    ==============================================================*/
+    //Button Panel
     createBtn();
     // submit();
     $(document).on('click', '.gif', displayGif);
