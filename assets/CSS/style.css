@@ -9,7 +9,6 @@
 }
 
 
-
 .navbar-header {
 	text-align: center;
 }
@@ -17,9 +16,6 @@
 
 body {
 	background-image: url('../images/travel-logo.jpg');
-	background-size: 100%;
-	
-	background-size: cover;
 	background-position: bottom 10px;
  	background-repeat: no-repeat;
 	font-family: 'Cinzel', serif;
