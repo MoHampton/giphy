@@ -5,21 +5,17 @@
 .container {
 	height: 100%;
 	width: 100%;
-
 }
-
 
 .navbar-header {
 	text-align: center;
 }
-
 
 body {
 	background-image: url('../images/travel-logo.jpg');
 	background-position: bottom 10px;
  	background-repeat: no-repeat;
 	font-family: 'Cinzel', serif;
-	
 }
 
 p {
@@ -27,8 +23,6 @@ p {
 	font-style: bold;
 	font-size: 24px;
 }
-
-
 
 h1 {
 	font-size: 50px;
@@ -42,6 +36,7 @@ h2 {
 img {
 	max-width: 100%;
 }
+
 img {
     padding: 15px;
 }
@@ -59,17 +54,14 @@ img {
 
 
 /*Input*/
-
 #btn-section {
     background-color: #90969e;
     font-size: 24;
     border-radius: 10px;
-
 }
 
 
 /*Gif Buttons */
-
 .gif {
     margin: 20px auto;
     height: 50px;
